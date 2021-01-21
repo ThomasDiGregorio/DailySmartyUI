@@ -4,9 +4,17 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
     render() {
         return (
-            <form>
-                <input placeholder="Search Daily Smarty" />
-            </form>
+            <div className="recent-posts">
+                <div className="recent-posts__wrapper">
+                    <div className="recent-posts__heading">Recent Posts</div>
+                    <ul className="recent-posts__posts">
+                        <li>recent posts 0</li>
+                        <li>recent posts 1</li>
+                        <li>recent posts 2</li>
+                    </ul>
+                </div>
+        
+            </div>
         )
     }
 }
